@@ -1,0 +1,24 @@
+{
+  "name": "discuter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon backend/index.js"
+  },
+  "author": "group luftwaffe",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@zegocloud/zego-uikit-prebuilt": "^1.7.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21",
+    "react-scrollable-feed": "^1.3.2",
+    "socket.io": "^4.6.1"
+  }
+}
